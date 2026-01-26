@@ -1,3 +1,16 @@
+# 업데이트상황
+- rby1_description 구성 변경(moveit 관련 패키지 수정을 진행하면서 urdf 파일 수정 진행중)
+  - a_1.0 모델만 있던 구성에서 현재 배포중인 모든 버전 업로드
+  - 각 주요 버전에 밪게 파일 분리
+  - urdf정상작동 여부 판단을 위한 테스트 launch 파일 수정
+    - 파라미터
+    1. model_name : rby1a, rby1m
+    2. model_version : 1.0, 1.1, 1.2, 1.3
+    ```bash
+    ros2 launch rby1_description rby1_state_publisher.launch.py model_name:=rby1a model_version:=1.1
+    ```
+
+
 # rby1_ros2
 ![Ubuntu](https://img.shields.io/badge/OS-Ubuntu%2022.04-E95420?logo=ubuntu)
 ![ROS 2](https://img.shields.io/badge/ROS%202-Humble-blue?logo=ros)
