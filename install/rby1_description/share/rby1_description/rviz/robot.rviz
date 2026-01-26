@@ -67,6 +67,10 @@ Visualization Manager:
           Value: true
         ee_right:
           Value: true
+        ee_virtual_left:
+          Value: true
+        ee_virtual_right:
+          Value: true
         link_head_0:
           Value: true
         link_head_1:
@@ -113,13 +117,9 @@ Visualization Manager:
           Value: true
         link_torso_5:
           Value: true
-        wheel_fl_link:
+        wheel_l:
           Value: true
-        wheel_fr_link:
-          Value: true
-        wheel_rl_link:
-          Value: true
-        wheel_rr_link:
+        wheel_r:
           Value: true
       Marker Scale: 1
       Name: TF
@@ -145,11 +145,12 @@ Visualization Manager:
                               link_left_arm_4:
                                 link_left_arm_5:
                                   link_left_arm_6:
-                                    ee_left:
-                                      ee_finger_l1:
-                                        {}
-                                      ee_finger_l2:
-                                        {}
+                                    ee_virtual_left:
+                                      ee_left:
+                                        ee_finger_l1:
+                                          {}
+                                        ee_finger_l2:
+                                          {}
                       link_right_arm_0:
                         link_right_arm_1:
                           link_right_arm_2:
@@ -157,18 +158,15 @@ Visualization Manager:
                               link_right_arm_4:
                                 link_right_arm_5:
                                   link_right_arm_6:
-                                    ee_right:
-                                      ee_finger_r1:
-                                        {}
-                                      ee_finger_r2:
-                                        {}
-          wheel_fl_link:
+                                    ee_virtual_right:
+                                      ee_right:
+                                        ee_finger_r1:
+                                          {}
+                                        ee_finger_r2:
+                                          {}
+          wheel_l:
             {}
-          wheel_fr_link:
-            {}
-          wheel_rl_link:
-            {}
-          wheel_rr_link:
+          wheel_r:
             {}
       Update Interval: 0
       Value: true
@@ -225,6 +223,16 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        ee_virtual_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ee_virtual_right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         link_head_0:
           Alpha: 1
           Show Axes: false
@@ -340,22 +348,12 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        wheel_fl_link:
+        wheel_l:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        wheel_fr_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        wheel_rl_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        wheel_rr_link:
+        wheel_r:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -414,25 +412,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 10
+      Distance: 2.7663443088531494
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0
-        Y: 0
-        Z: 0
+        X: -0.1643988937139511
+        Y: 0.12274130433797836
+        Z: 0.2871275842189789
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.25539806485176086
+      Pitch: 0.5053979158401489
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.5553979277610779
+      Yaw: 0.8453940153121948
     Saved: ~
 Window Geometry:
   Displays:
@@ -450,5 +448,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1200
-  X: 70
-  Y: 60
+  X: 567
+  Y: 78

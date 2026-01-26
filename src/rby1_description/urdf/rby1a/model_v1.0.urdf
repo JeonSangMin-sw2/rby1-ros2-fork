@@ -501,6 +501,32 @@
         </collision>
     </link>
 
+    <link name="ee_virtual_left">
+        <inertial>
+            <mass value="0.0"/>
+            <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+        </inertial>
+        <visual>
+            <geometry>
+                <box size="0.0 0.0 0.0"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="ee_virtual_right">
+        <inertial>
+            <mass value="0.0"/>
+            <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+        </inertial>
+        <visual>
+            <geometry>
+                <box size="0.0 0.0 0.0"/>
+            </geometry>
+        </visual>
+    </link>
+
     <link name="FT_sensor_R">
         <inertial>
             <mass value="0.49078507"/>
@@ -1078,10 +1104,24 @@
         />
     </joint>
 
-    <joint name="tool_right" type="fixed">
+    <joint name="end_effector_right" type="fixed">
         <parent link="link_right_arm_6"/>
-        <child link="FT_sensor_R"/>
+        <child link="ee_virtual_right"/>
         <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 -0.1087"/>
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="end_effector_left" type="fixed">
+        <parent link="link_left_arm_6"/>
+        <child link="ee_virtual_left"/>
+        <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 -0.1087"/>
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="tool_right" type="fixed">
+        <parent link="ee_virtual_right"/>
+        <child link="FT_sensor_R"/> 
+        <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
         <axis xyz="0 0 1"/>
     </joint>
 
@@ -1109,9 +1149,9 @@
     </joint>
 
     <joint name="tool_left" type="fixed">
-        <parent link="link_left_arm_6"/>
+        <parent link="ee_virtual_left"/>
         <child link="FT_sensor_L"/>
-        <origin rpy="0.0 0.0 0" xyz="0.0 0.0 -0.1087"/>
+        <origin rpy="0.0 0.0 0" xyz="0.0 0.0 0.0"/>
         <axis xyz="0 0 1"/>
     </joint>
 
