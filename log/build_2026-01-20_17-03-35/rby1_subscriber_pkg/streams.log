@@ -1,0 +1,26 @@
+[0.561s] Invoking command in '/home/rainbow/rby1_fork_ws/build/rby1_subscriber_pkg': PYTHONPATH=/home/rainbow/rby1_fork_ws/build/rby1_subscriber_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rainbow/rby1_fork_ws/install/rby1_subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rainbow/rby1_fork_ws/build/rby1_subscriber_pkg/build --no-deps symlink_data
+[0.701s] running develop
+[0.782s] running egg_info
+[0.782s] writing rby1_subscriber_pkg.egg-info/PKG-INFO
+[0.783s] writing dependency_links to rby1_subscriber_pkg.egg-info/dependency_links.txt
+[0.783s] writing entry points to rby1_subscriber_pkg.egg-info/entry_points.txt
+[0.783s] writing requirements to rby1_subscriber_pkg.egg-info/requires.txt
+[0.783s] writing top-level names to rby1_subscriber_pkg.egg-info/top_level.txt
+[0.784s] reading manifest file 'rby1_subscriber_pkg.egg-info/SOURCES.txt'
+[0.784s] writing manifest file 'rby1_subscriber_pkg.egg-info/SOURCES.txt'
+[0.785s] running build_ext
+[0.785s] Creating /home/rainbow/rby1_fork_ws/install/rby1_subscriber_pkg/lib/python3.10/site-packages/rby1-subscriber-pkg.egg-link (link to .)
+[0.786s] Installing 01_dualarm_control script to /home/rainbow/rby1_fork_ws/install/rby1_subscriber_pkg/lib/rby1_subscriber_pkg
+[0.786s] Installing 02_wholebody_control script to /home/rainbow/rby1_fork_ws/install/rby1_subscriber_pkg/lib/rby1_subscriber_pkg
+[0.786s] Installing 03_torso_control script to /home/rainbow/rby1_fork_ws/install/rby1_subscriber_pkg/lib/rby1_subscriber_pkg
+[0.786s] Installing 04_right_arm_control script to /home/rainbow/rby1_fork_ws/install/rby1_subscriber_pkg/lib/rby1_subscriber_pkg
+[0.786s] Installing 05_left_arm_control script to /home/rainbow/rby1_fork_ws/install/rby1_subscriber_pkg/lib/rby1_subscriber_pkg
+[0.786s] Installing 06_head_control script to /home/rainbow/rby1_fork_ws/install/rby1_subscriber_pkg/lib/rby1_subscriber_pkg
+[0.786s] Installing 07_mobile_control script to /home/rainbow/rby1_fork_ws/install/rby1_subscriber_pkg/lib/rby1_subscriber_pkg
+[0.786s] Installing 08_DH_dualarm_control_2 script to /home/rainbow/rby1_fork_ws/install/rby1_subscriber_pkg/lib/rby1_subscriber_pkg
+[0.786s] Installing controller_manager_ui script to /home/rainbow/rby1_fork_ws/install/rby1_subscriber_pkg/lib/rby1_subscriber_pkg
+[0.786s] Installing sorted_joint_state script to /home/rainbow/rby1_fork_ws/install/rby1_subscriber_pkg/lib/rby1_subscriber_pkg
+[0.786s] 
+[0.786s] Installed /home/rainbow/rby1_fork_ws/build/rby1_subscriber_pkg
+[0.786s] running symlink_data
+[0.804s] Invoked command in '/home/rainbow/rby1_fork_ws/build/rby1_subscriber_pkg' returned '0': PYTHONPATH=/home/rainbow/rby1_fork_ws/build/rby1_subscriber_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rainbow/rby1_fork_ws/install/rby1_subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rainbow/rby1_fork_ws/build/rby1_subscriber_pkg/build --no-deps symlink_data

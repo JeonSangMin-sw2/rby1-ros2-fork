@@ -1,0 +1,8 @@
+source;share/rby1a_v1_1_moveit/hook/cmake_prefix_path.ps1
+source;share/rby1a_v1_1_moveit/hook/cmake_prefix_path.dsv
+source;share/rby1a_v1_1_moveit/hook/cmake_prefix_path.sh
+source;share/rby1a_v1_1_moveit/local_setup.bash
+source;share/rby1a_v1_1_moveit/local_setup.dsv
+source;share/rby1a_v1_1_moveit/local_setup.ps1
+source;share/rby1a_v1_1_moveit/local_setup.sh
+source;share/rby1a_v1_1_moveit/local_setup.zsh

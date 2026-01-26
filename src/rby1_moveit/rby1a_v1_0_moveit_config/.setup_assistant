@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: rby1_description
+    relative_path: urdf/rby1a/model_v1.0.urdf
+  srdf:
+    relative_path: config/RBY1_A_v1_0.srdf
+  package_settings:
+    author_name: sangminJeon
+    author_email: sangmin.jeon@rainbow-robotics.com
+    generated_timestamp: 1769056377

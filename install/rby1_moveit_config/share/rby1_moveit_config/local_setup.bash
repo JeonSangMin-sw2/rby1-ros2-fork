@@ -1,0 +1,1 @@
+/home/rainbow/rby1_fork_ws/build/rby1_moveit_config/ament_cmake_environment_hooks/local_setup.bash

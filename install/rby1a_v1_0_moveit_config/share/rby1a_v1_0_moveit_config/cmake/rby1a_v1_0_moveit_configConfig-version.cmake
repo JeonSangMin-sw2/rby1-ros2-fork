@@ -1,0 +1,1 @@
+/home/rainbow/rby1_fork_ws/build/rby1a_v1_0_moveit_config/ament_cmake_core/rby1a_v1_0_moveit_configConfig-version.cmake

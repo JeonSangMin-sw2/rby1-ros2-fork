@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing rby1_mobile_control.egg-info/PKG-INFO
+writing dependency_links to rby1_mobile_control.egg-info/dependency_links.txt
+writing entry points to rby1_mobile_control.egg-info/entry_points.txt
+writing requirements to rby1_mobile_control.egg-info/requires.txt
+writing top-level names to rby1_mobile_control.egg-info/top_level.txt
+reading manifest file 'rby1_mobile_control.egg-info/SOURCES.txt'
+writing manifest file 'rby1_mobile_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rainbow/rby1_fork_ws/install/rby1_mobile_control/lib/python3.10/site-packages/rby1-mobile-control.egg-link (link to .)
+Installing mobile_publisher script to /home/rainbow/rby1_fork_ws/install/rby1_mobile_control/lib/rby1_mobile_control
+
+Installed /home/rainbow/rby1_fork_ws/build/rby1_mobile_control
+running symlink_data

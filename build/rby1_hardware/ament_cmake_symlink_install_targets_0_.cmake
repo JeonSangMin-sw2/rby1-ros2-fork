@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rainbow/rby1_fork_ws/build/rby1_hardware/librby1_hardware.so" "TARGETS" "rby1_hardware" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

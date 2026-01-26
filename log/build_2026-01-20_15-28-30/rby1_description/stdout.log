@@ -1,0 +1,204 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/rainbow/rby1_fork_ws/build/rby1_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/urdf/rby1a/model_v1.0.urdf
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/urdf/rby1a/model_v1.1.urdf
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/urdf/rby1a/model_v1.2.urdf
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/urdf/rby1m/model_v1.0.urdf
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/urdf/rby1m/model_v1.1.urdf
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/urdf/rby1m/model_v1.2.urdf
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/urdf/rby1m/model_v1.3.urdf
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/EE_BODY.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/EE_BODY.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/EE_FINGER.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/EE_FINGER.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/FT_SENSOR_L.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/FT_SENSOR_L.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/FT_SENSOR_R.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/FT_SENSOR_R.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_1.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_1.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_10.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_10.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_11.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_11.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_12.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_12.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_12_v1.1.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_12_v1.1.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_13.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_13.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_13_v1.1.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_13_v1.1.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_14.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_14.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_15.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_15.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_16.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_16.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_17.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_17.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_18.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_18.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_19.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_19.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_19_v1.1.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_19_v1.1.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_2.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_2.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_20.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_20.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_20_v1.1.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_20_v1.1.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_3.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_3.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_4.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_4.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_5.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_5.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_6.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_6.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_7.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_7.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_8.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_8.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_9.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/LINK_9.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/NECK_0.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/NECK_0.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/NECK_1.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/NECK_1.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/NECK_2.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/NECK_2.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/PAN_TILT_1.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/PAN_TILT_1.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/PAN_TILT_2.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/PAN_TILT_2.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/PAN_TILT_3.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/PAN_TILT_3.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/WHEEL.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/WHEEL.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/base.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1a/base.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/EE_BODY.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/EE_BODY.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/EE_FINGER.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/EE_FINGER.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/EE_GR_TF.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/FT_SENSOR_L.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/FT_SENSOR_L.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/FT_SENSOR_R.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/FT_SENSOR_R.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_1.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_1.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_10.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_10.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_11.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_11.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_11_WY.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_12.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_12.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_12_WP.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_12_v1.1.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_12_v1.1.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_13.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_13.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_13_WR.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_13_v1.1.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_13_v1.1.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_14.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_14.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_15.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_15.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_16.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_16.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_17.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_17.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_18.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_18.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_18_WY.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_19.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_19.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_19_WP.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_19_v1.1.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_19_v1.1.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_2.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_2.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_20.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_20.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_20_WR.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_20_v1.1.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_20_v1.1.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_3.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_3.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_4.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_4.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_5.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_5.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_6.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_6.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_7.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_7.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_8.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_8.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_9.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/LINK_9.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/MECANUM_WHEEL.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/MECANUM_WHEEL.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/MECANUM_WHEEL_M.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/MECANUM_WHEEL_M.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/NECK_0.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/NECK_0.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/NECK_1.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/NECK_1.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/NECK_2.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/NECK_2.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/PAN_TILT_1.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/PAN_TILT_1.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/PAN_TILT_2.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/PAN_TILT_2.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/PAN_TILT_3.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/PAN_TILT_3.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/WHEEL.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/WHEEL.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/WP_Link.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/WP_Out.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/base.dae
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/meshes/rby1m/base.glb
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/initial_position/initial_positions_model_A.yaml
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/initial_position/initial_positions_model_M.yaml
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/rviz/Readme.md
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/launch/rby1_state_publisher.launch.py
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/ament_index/resource_index/package_run_dependencies/rby1_description
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/ament_index/resource_index/parent_prefix_path/rby1_description
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/environment/path.sh
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/environment/path.dsv
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/local_setup.bash
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/local_setup.sh
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/local_setup.zsh
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/local_setup.dsv
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/package.dsv
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/ament_index/resource_index/packages/rby1_description
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/cmake/rby1_descriptionConfig.cmake
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/cmake/rby1_descriptionConfig-version.cmake
+-- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_description/share/rby1_description/package.xml

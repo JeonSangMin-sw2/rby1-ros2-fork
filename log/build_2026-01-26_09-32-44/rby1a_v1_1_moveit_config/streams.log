@@ -1,0 +1,44 @@
+[0.336s] Invoking command in '/home/rainbow/rby1_fork_ws/build/rby1a_v1_1_moveit_config': /opt/cmake/bin/cmake /home/rainbow/rby1_fork_ws/src/rby1_moveit/rby1a_v1_1_moveit_config -DCMAKE_INSTALL_PREFIX=/home/rainbow/rby1_fork_ws/install/rby1a_v1_1_moveit_config
+[0.416s] -- The C compiler identification is GNU 11.4.0
+[0.490s] -- The CXX compiler identification is GNU 11.4.0
+[0.501s] -- Detecting C compiler ABI info
+[0.555s] -- Detecting C compiler ABI info - done
+[0.565s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.565s] -- Detecting C compile features
+[0.565s] -- Detecting C compile features - done
+[0.569s] -- Detecting CXX compiler ABI info
+[0.626s] -- Detecting CXX compiler ABI info - done
+[0.636s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.637s] -- Detecting CXX compile features
+[0.637s] -- Detecting CXX compile features - done
+[0.644s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.743s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.891s] Error parsing '/home/rainbow/rby1_fork_ws/src/rby1_moveit/rby1a_v1_1_moveit_config/package.xml':
+[0.913s] Traceback (most recent call last):
+[0.913s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.913s]     main()
+[0.913s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.913s]     raise e
+[0.913s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.913s]     package = parse_package_string(
+[0.914s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.915s]     pkg.validate(warnings=warnings)
+[0.915s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.915s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.915s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/rainbow/rby1_fork_ws/src/rby1_moveit/rby1a_v1_1_moveit_config/package.xml':
+[0.915s] Invalid email "Jeon" for person "sangmin"
+[0.915s] Invalid email "Jeon" for person "sangmin"
+[0.924s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.924s]   execute_process(/usr/bin/python3
+[0.924s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.924s]   /home/rainbow/rby1_fork_ws/src/rby1_moveit/rby1a_v1_1_moveit_config/package.xml
+[0.924s]   /home/rainbow/rby1_fork_ws/build/rby1a_v1_1_moveit_config/ament_cmake_core/package.cmake)
+[0.924s]   returned error code 1
+[0.924s] Call Stack (most recent call first):
+[0.924s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.924s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[0.924s]   CMakeLists.txt:6 (ament_package)
+[0.924s] 
+[0.924s] [0m
+[0.924s] -- Configuring incomplete, errors occurred!
+[0.927s] Invoked command in '/home/rainbow/rby1_fork_ws/build/rby1a_v1_1_moveit_config' returned '1': /opt/cmake/bin/cmake /home/rainbow/rby1_fork_ws/src/rby1_moveit/rby1a_v1_1_moveit_config -DCMAKE_INSTALL_PREFIX=/home/rainbow/rby1_fork_ws/install/rby1a_v1_1_moveit_config

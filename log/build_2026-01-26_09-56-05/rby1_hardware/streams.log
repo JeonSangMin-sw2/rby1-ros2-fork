@@ -1,0 +1,27 @@
+[0.022s] Invoking command in '/home/rainbow/rby1_fork_ws/build/rby1_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rainbow/rby1_fork_ws/install/rby1_subscriber_pkg:/home/rainbow/rby1_fork_ws/install/rby1_mobile_control:/home/rainbow/ws_moveit2/install/moveit_configs_utils:/home/rainbow/ws_moveit2/install/launch_param_builder:/home/rainbow/rby1_ros2_ws/install/rby1_subscriber_pkg:/home/rainbow/rby1_ros2_ws/install/rby1_mobile_control:/opt/ros/humble /opt/cmake/bin/cmake --build /home/rainbow/rby1_fork_ws/build/rby1_hardware -- -j16 -l16
+[0.179s] [100%] Built target rby1_hardware
+[0.328s] Invoked command in '/home/rainbow/rby1_fork_ws/build/rby1_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rainbow/rby1_fork_ws/install/rby1_subscriber_pkg:/home/rainbow/rby1_fork_ws/install/rby1_mobile_control:/home/rainbow/ws_moveit2/install/moveit_configs_utils:/home/rainbow/ws_moveit2/install/launch_param_builder:/home/rainbow/rby1_ros2_ws/install/rby1_subscriber_pkg:/home/rainbow/rby1_ros2_ws/install/rby1_mobile_control:/opt/ros/humble /opt/cmake/bin/cmake --build /home/rainbow/rby1_fork_ws/build/rby1_hardware -- -j16 -l16
+[0.331s] Invoking command in '/home/rainbow/rby1_fork_ws/build/rby1_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rainbow/rby1_fork_ws/install/rby1_subscriber_pkg:/home/rainbow/rby1_fork_ws/install/rby1_mobile_control:/home/rainbow/ws_moveit2/install/moveit_configs_utils:/home/rainbow/ws_moveit2/install/launch_param_builder:/home/rainbow/rby1_ros2_ws/install/rby1_subscriber_pkg:/home/rainbow/rby1_ros2_ws/install/rby1_mobile_control:/opt/ros/humble /opt/cmake/bin/cmake --install /home/rainbow/rby1_fork_ws/build/rby1_hardware
+[0.334s] -- Install configuration: ""
+[0.334s] -- Execute custom install script
+[0.334s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/lib/librby1_hardware.so
+[0.334s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/include/rby1_hardware/rby1_hardware_interface.hpp
+[0.335s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/rby1_hardware/rby1_hardware_plugins.xml
+[0.335s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/rby1_hardware//rby1_hardware_plugins.xml
+[0.335s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/ament_index/resource_index/package_run_dependencies/rby1_hardware
+[0.335s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/ament_index/resource_index/parent_prefix_path/rby1_hardware
+[0.335s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/rby1_hardware/environment/ament_prefix_path.sh
+[0.335s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/rby1_hardware/environment/ament_prefix_path.dsv
+[0.335s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/rby1_hardware/environment/path.sh
+[0.336s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/rby1_hardware/environment/path.dsv
+[0.336s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/rby1_hardware/local_setup.bash
+[0.336s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/rby1_hardware/local_setup.sh
+[0.336s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/rby1_hardware/local_setup.zsh
+[0.336s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/rby1_hardware/local_setup.dsv
+[0.336s] -- Symlinking: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/rby1_hardware/package.dsv
+[0.338s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/ament_index/resource_index/packages/rby1_hardware
+[0.338s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rby1_hardware
+[0.339s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/rby1_hardware/cmake/rby1_hardwareConfig.cmake
+[0.339s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/rby1_hardware/cmake/rby1_hardwareConfig-version.cmake
+[0.339s] -- Up-to-date symlink: /home/rainbow/rby1_fork_ws/install/rby1_hardware/share/rby1_hardware/package.xml
+[0.340s] Invoked command in '/home/rainbow/rby1_fork_ws/build/rby1_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rainbow/rby1_fork_ws/install/rby1_subscriber_pkg:/home/rainbow/rby1_fork_ws/install/rby1_mobile_control:/home/rainbow/ws_moveit2/install/moveit_configs_utils:/home/rainbow/ws_moveit2/install/launch_param_builder:/home/rainbow/rby1_ros2_ws/install/rby1_subscriber_pkg:/home/rainbow/rby1_ros2_ws/install/rby1_mobile_control:/opt/ros/humble /opt/cmake/bin/cmake --install /home/rainbow/rby1_fork_ws/build/rby1_hardware

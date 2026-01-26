@@ -1,0 +1,4 @@
+source;share/rby1a_v1_1_moveit/local_setup.bash
+source;share/rby1a_v1_1_moveit/local_setup.dsv
+source;share/rby1a_v1_1_moveit/local_setup.sh
+source;share/rby1a_v1_1_moveit/local_setup.zsh

@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: rby1_description
+    relative_path: urdf/rby1a/model_v1.1.urdf
+  srdf:
+    relative_path: config/RBY1_A_v1_1.srdf
+  package_settings:
+    author_name: sangmin.jeon
+    author_email: sangmin.jeon@rainbow-robotics.com
+    generated_timestamp: 1769395723
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
