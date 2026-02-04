@@ -11,16 +11,16 @@ controller_manager:
       type: joint_trajectory_controller/JointTrajectoryController
 
 
-    dual_arm_controller:
-      type: joint_trajectory_controller/JointTrajectoryController
+    # dual_arm_controller:
+    #   type: joint_trajectory_controller/JointTrajectoryController
 
 
     torso_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
 
-    whole_body_controller:
-      type: joint_trajectory_controller/JointTrajectoryController
+    # whole_body_controller:
+    #   type: joint_trajectory_controller/JointTrajectoryController
 
 
     head_controller:
