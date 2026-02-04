@@ -1144,8 +1144,9 @@
         <parent link="ee_right"/>
         <child link="ee_finger_r2"/>
         <origin rpy="0.0 0.0 3.1415926535" xyz="-0.003 0.0 -0.073"/>
-        <axis xyz="1 0 0"/>
+        <axis xyz="-1 0 0"/>
         <limit effort="1000" velocity="0.05" lower="0" upper="0.05"/>
+        <mimic joint="gripper_finger_r1" multiplier="1.0" offset="0.0"/>
     </joint>
 
     <joint name="tool_left" type="fixed">
@@ -1174,8 +1175,9 @@
         <parent link="ee_left"/>
         <child link="ee_finger_l2"/>
         <origin rpy="0.0 0.0 3.1415926535" xyz="-0.003 0.0 -0.073"/>
-        <axis xyz="1 0 0"/>
+        <axis xyz="-1 0 0"/>
         <limit effort="1000" velocity="0.05" lower="0" upper="0.05"/>
+        <mimic joint="gripper_finger_l1" multiplier="1.0" offset="0.0"/>
     </joint>
 
     <joint name="head_base" type="fixed">
