@@ -10,12 +10,12 @@ def generate_launch_description():
 
     # declare launch arguments
     arg_model_name = DeclareLaunchArgument(
-        "model_name", 
+        "model", 
         default_value="rby1a", 
         description="Model name folder (e.g., rby1a)"
     )
     arg_model_version = DeclareLaunchArgument(
-        "model_version", 
+        "version", 
         default_value="1.1", 
         description="Model version string (e.g., 1.0)"
     )
@@ -24,9 +24,9 @@ def generate_launch_description():
         'cat ', 
         FindPackageShare("rby1_description"), 
         '/urdf/', 
-        LaunchConfiguration("model_name"), 
+        LaunchConfiguration("model"), 
         '/model_v', 
-        LaunchConfiguration("model_version"), 
+        LaunchConfiguration("version"), 
         '.urdf'
     ])
     # set parameters
